@@ -71,6 +71,7 @@ export const AdminLogin: React.FC<AdminLoginProps> = ({ onLoginSuccess }) => {
           layout="vertical"
           onFinish={onFinish}
           requiredMark={false}
+          autoComplete="off"
         >
           <Form.Item
             label={<span className="text-xs font-bold text-slate-700">Username</span>}
@@ -80,6 +81,7 @@ export const AdminLogin: React.FC<AdminLoginProps> = ({ onLoginSuccess }) => {
             <Input
               prefix={<User size={16} className="text-slate-400 mr-2" />}
               placeholder="Enter username"
+              autoComplete="off"
               className="bg-slate-50 border-slate-300 text-slate-900 rounded-lg"
             />
           </Form.Item>
@@ -91,7 +93,8 @@ export const AdminLogin: React.FC<AdminLoginProps> = ({ onLoginSuccess }) => {
           >
             <Input.Password
               prefix={<Lock size={16} className="text-slate-400 mr-2" />}
-              placeholder="••••••••"
+              placeholder="Enter password"
+              autoComplete="new-password"
               className="bg-slate-50 border-slate-300 text-slate-900 rounded-lg"
             />
           </Form.Item>

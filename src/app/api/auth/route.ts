@@ -4,11 +4,17 @@ export async function POST(request: NextRequest) {
   try {
     const { username, password } = await request.json();
 
-    const validUsername = 'admin';
+    const envUser = process.env.ADMIN_USERNAME || 'admin';
+    const envPass = process.env.ADMIN_PASSWORD;
+
+    const validUsernames = [envUser.toLowerCase(), 'admin', 'osama'];
     const validPasswords = ['admin2026', 'osama2026', 'admin'];
+    if (envPass) {
+      validPasswords.push(envPass);
+    }
 
     if (
-      (username === validUsername || username === 'osama') &&
+      validUsernames.includes((username || '').toLowerCase().trim()) &&
       validPasswords.includes(password)
     ) {
       const response = NextResponse.json({
