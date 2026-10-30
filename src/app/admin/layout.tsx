@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+Default Demoimport type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Executive Admin Dashboard | Osama Elgendy Agency',

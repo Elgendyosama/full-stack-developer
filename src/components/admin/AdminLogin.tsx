@@ -70,7 +70,6 @@ export const AdminLogin: React.FC<AdminLoginProps> = ({ onLoginSuccess }) => {
         <Form
           layout="vertical"
           onFinish={onFinish}
-          initialValues={{ username: 'admin', password: 'admin2026' }}
           requiredMark={false}
         >
           <Form.Item
@@ -80,7 +79,7 @@ export const AdminLogin: React.FC<AdminLoginProps> = ({ onLoginSuccess }) => {
           >
             <Input
               prefix={<User size={16} className="text-slate-400 mr-2" />}
-              placeholder="e.g. admin"
+              placeholder="Enter username"
               className="bg-slate-50 border-slate-300 text-slate-900 rounded-lg"
             />
           </Form.Item>
@@ -97,11 +96,6 @@ export const AdminLogin: React.FC<AdminLoginProps> = ({ onLoginSuccess }) => {
             />
           </Form.Item>
 
-          <div className="p-3 rounded-lg bg-emerald-50 border border-emerald-200 mb-5 text-[11px] text-emerald-900 flex items-center justify-between">
-            <span>Default Demo: <strong>admin</strong> / <strong>admin2026</strong></span>
-            <span className="text-[10px] text-emerald-700 font-mono font-bold">Pre-filled</span>
-          </div>
-
           <Button
             type="primary"
             htmlType="submit"
@@ -109,7 +103,7 @@ export const AdminLogin: React.FC<AdminLoginProps> = ({ onLoginSuccess }) => {
             block
             size="large"
             icon={<ShieldCheck size={18} />}
-            className="bg-emerald-600 hover:bg-emerald-700 text-white font-bold h-11 rounded-lg shadow-sm"
+            className="bg-emerald-600 hover:bg-emerald-700 text-white font-bold h-11 rounded-lg shadow-sm mt-2"
           >
             Authenticate &amp; Enter Dashboard
           </Button>
