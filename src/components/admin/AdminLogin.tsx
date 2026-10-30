@@ -71,6 +71,10 @@ export const AdminLogin: React.FC<AdminLoginProps> = ({ onLoginSuccess }) => {
           layout="vertical"
           onFinish={onFinish}
           requiredMark={false}
+          initialValues={{
+            username: 'admin',
+            password: 'admin2026',
+          }}
         >
           <Form.Item
             label={<span className="text-xs font-bold text-slate-700">Username</span>}
@@ -95,6 +99,16 @@ export const AdminLogin: React.FC<AdminLoginProps> = ({ onLoginSuccess }) => {
               className="bg-slate-50 border-slate-300 text-slate-900 rounded-lg"
             />
           </Form.Item>
+
+          {/* Demo Credentials Box */}
+          <div className="mb-4 p-2.5 rounded-lg bg-emerald-50 border border-emerald-200 flex items-center justify-between text-xs text-emerald-950">
+            <span className="text-[11px]">
+              Default Demo: <strong className="font-mono font-bold text-slate-800">admin</strong> / <strong className="font-mono font-bold text-slate-800">admin2026</strong>
+            </span>
+            <span className="text-[10px] text-emerald-700 font-semibold bg-emerald-100/80 px-2 py-0.5 rounded">
+              Pre-filled
+            </span>
+          </div>
 
           <Button
             type="primary"
