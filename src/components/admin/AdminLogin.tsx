@@ -71,10 +71,6 @@ export const AdminLogin: React.FC<AdminLoginProps> = ({ onLoginSuccess }) => {
           layout="vertical"
           onFinish={onFinish}
           requiredMark={false}
-          initialValues={{
-            username: 'admin',
-            password: 'admin2026',
-          }}
         >
           <Form.Item
             label={<span className="text-xs font-bold text-slate-700">Username</span>}
@@ -100,16 +96,6 @@ export const AdminLogin: React.FC<AdminLoginProps> = ({ onLoginSuccess }) => {
             />
           </Form.Item>
 
-          {/* Demo Credentials Box */}
-          <div className="mb-4 p-2.5 rounded-lg bg-emerald-50 border border-emerald-200 flex items-center justify-between text-xs text-emerald-950">
-            <span className="text-[11px]">
-              Default Demo: <strong className="font-mono font-bold text-slate-800">admin</strong> / <strong className="font-mono font-bold text-slate-800">admin2026</strong>
-            </span>
-            <span className="text-[10px] text-emerald-700 font-semibold bg-emerald-100/80 px-2 py-0.5 rounded">
-              Pre-filled
-            </span>
-          </div>
-
           <Button
             type="primary"
             htmlType="submit"
@@ -117,7 +103,7 @@ export const AdminLogin: React.FC<AdminLoginProps> = ({ onLoginSuccess }) => {
             block
             size="large"
             icon={<ShieldCheck size={18} />}
-            className="bg-emerald-600 hover:bg-emerald-700 text-white font-bold h-11 rounded-lg shadow-sm mt-2"
+            className="bg-emerald-600 hover:bg-emerald-700 text-white font-bold h-11 rounded-lg shadow-sm mt-4"
           >
             Authenticate &amp; Enter Dashboard
           </Button>
