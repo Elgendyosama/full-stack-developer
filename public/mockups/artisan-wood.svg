@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 2800" width="1200" height="2800">
+    <rect width="1200" height="2800" fill="#1c1917"/>
+    <!-- Top Bar -->
+    <rect width="1200" height="80" fill="#292524"/>
+    <text x="80" y="48" fill="#e7e5e4" font-family="serif" font-weight="700" font-size="24">ARTISAN &amp; OAK</text>
+    <text x="500" y="46" fill="#a8a29e" font-family="sans-serif" font-size="15">Dining Tables &nbsp; Chairs &nbsp; Custom Desks &nbsp; Heritage Timber &nbsp; Journal</text>
+    <!-- Hero -->
+    <rect x="80" y="120" width="1040" height="480" rx="16" fill="#44403c"/>
+    <text x="140" y="220" fill="#d97706" font-size="16" font-weight="700" font-family="sans-serif">SUSTAINABLY HARVESTED WALNUT &amp; WHITE OAK</text>
+    <text x="140" y="300" fill="#fafaf9" font-size="48" font-weight="800" font-family="serif">Handcrafted Furniture for Generations</text>
+    <text x="140" y="360" fill="#d6d3d1" font-size="18" font-family="sans-serif">Custom commissioned dining tables, solid wood credenzas, and heirloom joinery.</text>
+    <rect x="140" y="420" width="200" height="48" rx="8" fill="#d97706"/>
+    <text x="240" y="450" fill="#ffffff" font-size="16" font-weight="700" text-anchor="middle">Explore Catalog</text>
+    <!-- Product Showcase -->
+    <text x="80" y="680" fill="#fafaf9" font-size="32" font-family="serif">Featured Heirloom Pieces</text>
+    
+      <g transform="translate(80, 730)">
+        <rect width="250" height="340" rx="12" fill="#292524"/>
+        <rect x="20" y="20" width="210" height="180" rx="8" fill="#44403c"/>
+        <text x="20" y="235" fill="#fafaf9" font-size="17" font-weight="700" font-family="serif">Kyoto Walnut Table</text>
+        <text x="20" y="265" fill="#a8a29e" font-size="13">Solid Black Walnut</text>
+        <text x="20" y="305" fill="#d97706" font-size="20" font-weight="700">$3,200</text>
+      </g>
+      <g transform="translate(350, 730)">
+        <rect width="250" height="340" rx="12" fill="#292524"/>
+        <rect x="20" y="20" width="210" height="180" rx="8" fill="#44403c"/>
+        <text x="20" y="235" fill="#fafaf9" font-size="17" font-weight="700" font-family="serif">Oslo Credenza</text>
+        <text x="20" y="265" fill="#a8a29e" font-size="13">Solid Black Walnut</text>
+        <text x="20" y="305" fill="#d97706" font-size="20" font-weight="700">$2,450</text>
+      </g>
+      <g transform="translate(620, 730)">
+        <rect width="250" height="340" rx="12" fill="#292524"/>
+        <rect x="20" y="20" width="210" height="180" rx="8" fill="#44403c"/>
+        <text x="20" y="235" fill="#fafaf9" font-size="17" font-weight="700" font-family="serif">Sierra Armchair</text>
+        <text x="20" y="265" fill="#a8a29e" font-size="13">Solid Black Walnut</text>
+        <text x="20" y="305" fill="#d97706" font-size="20" font-weight="700">$890</text>
+      </g>
+      <g transform="translate(890, 730)">
+        <rect width="250" height="340" rx="12" fill="#292524"/>
+        <rect x="20" y="20" width="210" height="180" rx="8" fill="#44403c"/>
+        <text x="20" y="235" fill="#fafaf9" font-size="17" font-weight="700" font-family="serif">Highland Bookcase</text>
+        <text x="20" y="265" fill="#a8a29e" font-size="13">Solid Black Walnut</text>
+        <text x="20" y="305" fill="#d97706" font-size="20" font-weight="700">$1,850</text>
+      </g>
+    <!-- Story -->
+    <rect x="80" y="1150" width="1040" height="360" rx="16" fill="#292524"/>
+    <text x="140" y="1240" fill="#fafaf9" font-size="34" font-weight="700" font-family="serif">Traditional Japanese Joinery</text>
+    <text x="140" y="1290" fill="#d6d3d1" font-size="17">Zero nails, zero synthetic veneers. Every mortise and tenon joint is hand chiseled by master carpenters with 20+ years of timber mastery.</text>
+    <!-- Footer -->
+    <rect x="0" y="2400" width="1200" height="400" fill="#141210"/>
+    <text x="80" y="2490" fill="#fafaf9" font-size="22" font-family="serif">Artisan &amp; Oak Woodworks</text>
+    <text x="80" y="2530" fill="#78716c" font-size="14">WooCommerce + Next.js Headless Experience.</text>
+  </svg>

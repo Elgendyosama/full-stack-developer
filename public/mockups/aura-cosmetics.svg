@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 2800" width="1200" height="2800">
+    <rect width="1200" height="2800" fill="#fff1f2"/>
+    <rect width="1200" height="80" fill="#ffe4e6"/>
+    <text x="80" y="48" fill="#be123c" font-family="serif" font-weight="700" font-size="24">AURA BOTANICALS</text>
+    <text x="500" y="46" fill="#881337" font-size="15">Serums &nbsp; Moisture Veil &nbsp; Clinical Results &nbsp; Press</text>
+    <rect x="80" y="140" width="1040" height="460" rx="20" fill="#fecdd3"/>
+    <text x="140" y="240" fill="#be123c" font-size="15" font-weight="700">CLINICAL HYDRATION WITH BOTANICAL STEM CELLS</text>
+    <text x="140" y="320" fill="#881337" font-size="52" font-family="serif" font-weight="800">Restore Your Radiant Glow</text>
+    <text x="140" y="375" fill="#9f1239" font-size="18">Patented multi-weight hyaluronic peptides delivering 72-hour moisture lock.</text>
+    <rect x="140" y="420" width="220" height="50" rx="25" fill="#be123c"/>
+    <text x="250" y="452" fill="#ffffff" font-size="16" font-weight="700" text-anchor="middle">Shop Ritual Now</text>
+    <!-- Product Row -->
+    <text x="80" y="680" fill="#881337" font-size="32" font-family="serif">The Signature Trio</text>
+    
+      <g transform="translate(80, 730)">
+        <rect width="330" height="380" rx="16" fill="#ffffff" stroke="#fecdd3"/>
+        <rect x="25" y="25" width="280" height="200" rx="12" fill="#fff1f2"/>
+        <text x="25" y="260" fill="#881337" font-family="serif" font-size="20" font-weight="700">Cellular Rose Elixir</text>
+        <text x="25" y="290" fill="#9f1239" font-size="14">30ml / 1.0 fl oz</text>
+        <text x="25" y="335" fill="#be123c" font-size="22" font-weight="800">$88</text>
+      </g>
+      <g transform="translate(440, 730)">
+        <rect width="330" height="380" rx="16" fill="#ffffff" stroke="#fecdd3"/>
+        <rect x="25" y="25" width="280" height="200" rx="12" fill="#fff1f2"/>
+        <text x="25" y="260" fill="#881337" font-family="serif" font-size="20" font-weight="700">Ceramide Cloud Barrier</text>
+        <text x="25" y="290" fill="#9f1239" font-size="14">30ml / 1.0 fl oz</text>
+        <text x="25" y="335" fill="#be123c" font-size="22" font-weight="800">$72</text>
+      </g>
+      <g transform="translate(800, 730)">
+        <rect width="330" height="380" rx="16" fill="#ffffff" stroke="#fecdd3"/>
+        <rect x="25" y="25" width="280" height="200" rx="12" fill="#fff1f2"/>
+        <text x="25" y="260" fill="#881337" font-family="serif" font-size="20" font-weight="700">Luminous Eye Nectar</text>
+        <text x="25" y="290" fill="#9f1239" font-size="14">30ml / 1.0 fl oz</text>
+        <text x="25" y="335" fill="#be123c" font-size="22" font-weight="800">$64</text>
+      </g>
+    <rect x="0" y="2400" width="1200" height="400" fill="#4c0519"/>
+    <text x="80" y="2490" fill="#ffffff" font-size="22" font-family="serif">Aura Botanicals Paris</text>
+  </svg>

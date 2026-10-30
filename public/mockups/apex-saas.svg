@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 2800" width="1200" height="2800">
+    <defs>
+      <linearGradient id="apexbg" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#0b0f19"/>
+        <stop offset="50%" stop-color="#111827"/>
+        <stop offset="100%" stop-color="#030712"/>
+      </linearGradient>
+      <linearGradient id="apexEmerald" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#10b981"/>
+        <stop offset="100%" stop-color="#06b6d4"/>
+      </linearGradient>
+    </defs>
+    <rect width="1200" height="2800" fill="url(#apexbg)"/>
+    
+    <!-- Navbar -->
+    <rect width="1200" height="80" fill="#0b0f19" fill-opacity="0.9"/>
+    <rect x="80" y="24" width="36" height="36" rx="8" fill="url(#apexEmerald)"/>
+    <text x="130" y="48" fill="#ffffff" font-family="system-ui, sans-serif" font-weight="700" font-size="22">ApexCloud</text>
+    <text x="460" y="47" fill="#9ca3af" font-family="system-ui, sans-serif" font-size="16">Platform &nbsp;&nbsp;&nbsp; Solutions &nbsp;&nbsp;&nbsp; Security &nbsp;&nbsp;&nbsp; Pricing &nbsp;&nbsp;&nbsp; Docs</text>
+    <rect x="1000" y="24" width="120" height="36" rx="8" fill="url(#apexEmerald)"/>
+    <text x="1060" y="47" fill="#0b0f19" font-family="system-ui, sans-serif" font-weight="700" font-size="14" text-anchor="middle">Start Free</text>
+    
+    <!-- Hero Banner -->
+    <text x="600" y="190" fill="#10b981" font-family="system-ui, sans-serif" font-weight="600" font-size="16" text-anchor="middle">AUTOMATED CLOUD GOVERNANCE &amp; OBSERVABILITY</text>
+    <text x="600" y="260" fill="#ffffff" font-family="system-ui, sans-serif" font-weight="800" font-size="52" text-anchor="middle">Real-time Telemetry for Modern Devs</text>
+    <text x="600" y="320" fill="#9ca3af" font-family="system-ui, sans-serif" font-size="20" text-anchor="middle">Unify logs, traces, and Kubernetes clusters in single pane of glass.</text>
+    
+    <!-- App UI Mockup Hero -->
+    <rect x="80" y="400" width="1040" height="520" rx="16" fill="#1f2937" stroke="#374151" stroke-width="2"/>
+    <rect x="80" y="400" width="1040" height="40" rx="16" fill="#111827"/>
+    <circle cx="110" cy="420" r="6" fill="#ef4444"/>
+    <circle cx="130" cy="420" r="6" fill="#f59e0b"/>
+    <circle cx="150" cy="420" r="6" fill="#10b981"/>
+    <text x="600" y="425" fill="#6b7280" font-family="system-ui, sans-serif" font-size="12" text-anchor="middle">app.apexcloud.io/clusters/prod-eu-west-1/telemetry</text>
+    
+    <!-- Dashboard Inside Mockup -->
+    <rect x="110" y="460" width="220" height="120" rx="10" fill="#111827"/>
+    <text x="130" y="490" fill="#9ca3af" font-size="14">Global Latency</text>
+    <text x="130" y="530" fill="#10b981" font-family="system-ui, sans-serif" font-weight="700" font-size="28">14.2 ms</text>
+    <text x="130" y="560" fill="#059669" font-size="12">↓ 22% vs yesterday</text>
+    
+    <rect x="360" y="460" width="220" height="120" rx="10" fill="#111827"/>
+    <text x="380" y="490" fill="#9ca3af" font-size="14">Error Rate</text>
+    <text x="380" y="530" fill="#38bdf8" font-family="system-ui, sans-serif" font-weight="700" font-size="28">0.001%</text>
+    <text x="380" y="560" fill="#0284c7" font-size="12">Zero dropouts</text>
+
+    <rect x="610" y="460" width="480" height="120" rx="10" fill="#111827"/>
+    <text x="630" y="490" fill="#9ca3af" font-size="14">Throughput (Req / sec)</text>
+    <path d="M 640 540 Q 720 500 800 520 T 960 480 T 1060 510" fill="none" stroke="#10b981" stroke-width="4"/>
+
+    <!-- Data Table Inside Mockup -->
+    <rect x="110" y="610" width="980" height="280" rx="10" fill="#111827"/>
+    <rect x="110" y="610" width="980" height="40" fill="#172133"/>
+    <text x="130" y="635" fill="#94a3b8" font-weight="600" font-size="14">Service Name</text>
+    <text x="380" y="635" fill="#94a3b8" font-weight="600" font-size="14">Cluster</text>
+    <text x="600" y="635" fill="#94a3b8" font-weight="600" font-size="14">Status</text>
+    <text x="850" y="635" fill="#94a3b8" font-weight="600" font-size="14">Pods</text>
+    
+    <text x="130" y="680" fill="#ffffff" font-size="14">api-gateway-v2</text>
+    <text x="380" y="680" fill="#9ca3af" font-size="14">aws-us-east-1</text>
+    <text x="600" y="680" fill="#10b981" font-weight="600" font-size="14">● HEALTHY</text>
+    <text x="850" y="680" fill="#ffffff" font-size="14">18/18</text>
+
+    <text x="130" y="725" fill="#ffffff" font-size="14">auth-broker-oauth</text>
+    <text x="380" y="725" fill="#9ca3af" font-size="14">gcp-europe-west3</text>
+    <text x="600" y="725" fill="#10b981" font-weight="600" font-size="14">● HEALTHY</text>
+    <text x="850" y="725" fill="#ffffff" font-size="14">12/12</text>
+
+    <text x="130" y="770" fill="#ffffff" font-size="14">billing-processor</text>
+    <text x="380" y="770" fill="#9ca3af" font-size="14">aws-eu-central-1</text>
+    <text x="600" y="770" fill="#10b981" font-weight="600" font-size="14">● HEALTHY</text>
+    <text x="850" y="770" fill="#ffffff" font-size="14">8/8</text>
+
+    <!-- Value Matrix -->
+    <text x="600" y="1030" fill="#ffffff" font-family="system-ui, sans-serif" font-weight="700" font-size="34" text-anchor="middle">Engineered for DevSecOps Teams</text>
+    <g transform="translate(80, 1080)">
+      <rect width="320" height="280" rx="16" fill="#1e293b"/>
+      <rect x="24" y="24" width="48" height="48" rx="10" fill="url(#apexEmerald)"/>
+      <text x="24" y="110" fill="#ffffff" font-family="system-ui, sans-serif" font-weight="700" font-size="20">AI Root Cause Analysis</text>
+      <text x="24" y="145" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="15">Detect anomalies across distributed microservices before alerts reach on-call.</text>
+    </g>
+    <g transform="translate(440, 1080)">
+      <rect width="320" height="280" rx="16" fill="#1e293b"/>
+      <rect x="24" y="24" width="48" height="48" rx="10" fill="url(#apexEmerald)"/>
+      <text x="24" y="110" fill="#ffffff" font-family="system-ui, sans-serif" font-weight="700" font-size="20">Zero-Config OpenTelemetry</text>
+      <text x="24" y="145" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="15">Drop in our eBPF agent or Helm chart and start streaming traces in 60 seconds.</text>
+    </g>
+    <g transform="translate(800, 1080)">
+      <rect width="320" height="280" rx="16" fill="#1e293b"/>
+      <rect x="24" y="24" width="48" height="48" rx="10" fill="url(#apexEmerald)"/>
+      <text x="24" y="110" fill="#ffffff" font-family="system-ui, sans-serif" font-weight="700" font-size="20">SOC2 &amp; HIPAA Shield</text>
+      <text x="24" y="145" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="15">Role-based granular access control, PII auto-masking, and audit logging.</text>
+    </g>
+
+    <!-- Pricing Section -->
+    <text x="600" y="1480" fill="#ffffff" font-family="system-ui, sans-serif" font-weight="700" font-size="34" text-anchor="middle">Transparent, Predictable Pricing</text>
+    <g transform="translate(80, 1530)">
+      <rect width="320" height="440" rx="16" fill="#111827" stroke="#374151" stroke-width="1"/>
+      <text x="32" y="60" fill="#9ca3af" font-size="18" font-weight="600">Developer</text>
+      <text x="32" y="110" fill="#ffffff" font-size="36" font-weight="800">$0 <tspan font-size="16" fill="#6b7280">/ mo</tspan></text>
+      <text x="32" y="150" fill="#9ca3af" font-size="14">Up to 5 nodes &amp; 10GB telemetry</text>
+      <rect x="32" y="340" width="256" height="44" rx="8" fill="#374151"/>
+      <text x="160" y="367" fill="#ffffff" font-weight="600" text-anchor="middle">Start Free</text>
+    </g>
+    <g transform="translate(440, 1510)">
+      <rect width="320" height="480" rx="16" fill="#1f2937" stroke="#10b981" stroke-width="2"/>
+      <rect x="110" y="-12" width="100" height="24" rx="12" fill="#10b981"/>
+      <text x="160" y="4" fill="#000000" font-size="11" font-weight="700" text-anchor="middle">MOST POPULAR</text>
+      <text x="32" y="60" fill="#10b981" font-size="18" font-weight="600">Team Scale</text>
+      <text x="32" y="110" fill="#ffffff" font-size="36" font-weight="800">$189 <tspan font-size="16" fill="#6b7280">/ mo</tspan></text>
+      <text x="32" y="150" fill="#9ca3af" font-size="14">Up to 50 nodes &amp; 200GB telemetry</text>
+      <rect x="32" y="380" width="256" height="44" rx="8" fill="url(#apexEmerald)"/>
+      <text x="160" y="407" fill="#0b0f19" font-weight="700" text-anchor="middle">Deploy Now</text>
+    </g>
+    <g transform="translate(800, 1530)">
+      <rect width="320" height="440" rx="16" fill="#111827" stroke="#374151" stroke-width="1"/>
+      <text x="32" y="60" fill="#9ca3af" font-size="18" font-weight="600">Enterprise</text>
+      <text x="32" y="110" fill="#ffffff" font-size="36" font-weight="800">Custom</text>
+      <text x="32" y="150" fill="#9ca3af" font-size="14">Dedicated VPC, custom SLA &amp; SSO</text>
+      <rect x="32" y="340" width="256" height="44" rx="8" fill="#374151"/>
+      <text x="160" y="367" fill="#ffffff" font-weight="600" text-anchor="middle">Talk to Sales</text>
+    </g>
+
+    <!-- Footer -->
+    <rect x="0" y="2400" width="1200" height="400" fill="#050811"/>
+    <text x="80" y="2490" fill="#ffffff" font-size="22" font-weight="700">ApexCloud Observability</text>
+    <text x="80" y="2530" fill="#6b7280" font-size="14">High-fidelity metrics and tracing infrastructure for distributed teams.</text>
+  </svg>

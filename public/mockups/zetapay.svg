@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 2800" width="1200" height="2800">
+    <rect width="1200" height="2800" fill="#0a192f"/>
+    <!-- Top Bar -->
+    <rect width="1200" height="80" fill="#020c1b"/>
+    <text x="80" y="48" fill="#64ffda" font-family="sans-serif" font-weight="800" font-size="24">ZETAPAY // ENTERPRISE</text>
+    <text x="1000" y="47" fill="#ccd6f6" font-family="sans-serif" font-size="15">CLIENT LOGIN</text>
+    <!-- Hero -->
+    <text x="80" y="200" fill="#64ffda" font-size="16" font-family="monospace">01. GLOBAL PAYMENT RAILS</text>
+    <text x="80" y="280" fill="#ccd6f6" font-size="52" font-weight="800" font-family="sans-serif">Multi-Currency Settlement</text>
+    <text x="80" y="340" fill="#8892b0" font-size="22" font-family="sans-serif">Automated FX reconciliation and PCI-DSS Level 1 compliant gateway built on Laravel 11.</text>
+    <!-- Stats Cards -->
+    <g transform="translate(80, 420)">
+      <rect width="320" height="160" rx="12" fill="#112240" stroke="#233554"/>
+      <text x="24" y="50" fill="#8892b0" font-size="14">Daily Settlement Volume</text>
+      <text x="24" y="100" fill="#64ffda" font-size="34" font-weight="700">$48,200,000</text>
+      <text x="24" y="130" fill="#ccd6f6" font-size="13">180+ Supported Currencies</text>
+    </g>
+    <g transform="translate(440, 420)">
+      <rect width="320" height="160" rx="12" fill="#112240" stroke="#233554"/>
+      <text x="24" y="50" fill="#8892b0" font-size="14">API Response Latency</text>
+      <text x="24" y="100" fill="#64ffda" font-size="34" font-weight="700">62 ms</text>
+      <text x="24" y="130" fill="#ccd6f6" font-size="13">ISO-20022 Compliant</text>
+    </g>
+    <g transform="translate(800, 420)">
+      <rect width="320" height="160" rx="12" fill="#112240" stroke="#233554"/>
+      <text x="24" y="50" fill="#8892b0" font-size="14">Fraud Rejection Accuracy</text>
+      <text x="24" y="100" fill="#64ffda" font-size="34" font-weight="700">99.94%</text>
+      <text x="24" y="130" fill="#ccd6f6" font-size="13">Deep Learning Shield</text>
+    </g>
+    <!-- Corporate Features Grid -->
+    <text x="80" y="700" fill="#ccd6f6" font-size="32" font-weight="700">Institutional Banking Features</text>
+    
+      <g transform="translate(80, 760)">
+        <rect width="330" height="180" rx="10" fill="#112240"/>
+        <text x="20" y="45" fill="#64ffda" font-size="18" font-weight="700">01. SEPA & SWIFT Direct</text>
+        <text x="20" y="85" fill="#8892b0" font-size="14">Built for tier-1 financial institutions with zero tolerance for downtime or balance discrepancies.</text>
+      </g>
+      <g transform="translate(440, 760)">
+        <rect width="330" height="180" rx="10" fill="#112240"/>
+        <text x="20" y="45" fill="#64ffda" font-size="18" font-weight="700">02. Automated Treasury Routing</text>
+        <text x="20" y="85" fill="#8892b0" font-size="14">Built for tier-1 financial institutions with zero tolerance for downtime or balance discrepancies.</text>
+      </g>
+      <g transform="translate(800, 760)">
+        <rect width="330" height="180" rx="10" fill="#112240"/>
+        <text x="20" y="45" fill="#64ffda" font-size="18" font-weight="700">03. Cryptographic Webhooks</text>
+        <text x="20" y="85" fill="#8892b0" font-size="14">Built for tier-1 financial institutions with zero tolerance for downtime or balance discrepancies.</text>
+      </g>
+      <g transform="translate(80, 980)">
+        <rect width="330" height="180" rx="10" fill="#112240"/>
+        <text x="20" y="45" fill="#64ffda" font-size="18" font-weight="700">04. Dispute Management API</text>
+        <text x="20" y="85" fill="#8892b0" font-size="14">Built for tier-1 financial institutions with zero tolerance for downtime or balance discrepancies.</text>
+      </g>
+      <g transform="translate(440, 980)">
+        <rect width="330" height="180" rx="10" fill="#112240"/>
+        <text x="20" y="45" fill="#64ffda" font-size="18" font-weight="700">05. Multi-tenant Org Roles</text>
+        <text x="20" y="85" fill="#8892b0" font-size="14">Built for tier-1 financial institutions with zero tolerance for downtime or balance discrepancies.</text>
+      </g>
+      <g transform="translate(800, 980)">
+        <rect width="330" height="180" rx="10" fill="#112240"/>
+        <text x="20" y="45" fill="#64ffda" font-size="18" font-weight="700">06. Real-time Ledgers</text>
+        <text x="20" y="85" fill="#8892b0" font-size="14">Built for tier-1 financial institutions with zero tolerance for downtime or balance discrepancies.</text>
+      </g>
+    <!-- Compliance Logos -->
+    <rect x="80" y="1300" width="1040" height="200" rx="16" fill="#112240"/>
+    <text x="600" y="1360" fill="#ccd6f6" font-size="22" font-weight="700" text-anchor="middle">Global Banking Certifications</text>
+    <text x="200" y="1430" fill="#64ffda" font-size="18" font-weight="600" text-anchor="middle">PCI-DSS Level 1</text>
+    <text x="470" y="1430" fill="#64ffda" font-size="18" font-weight="600" text-anchor="middle">SOC2 Type II</text>
+    <text x="730" y="1430" fill="#64ffda" font-size="18" font-weight="600" text-anchor="middle">FCA Regulated</text>
+    <text x="990" y="1430" fill="#64ffda" font-size="18" font-weight="600" text-anchor="middle">GDPR Validated</text>
+    <!-- Footer -->
+    <rect x="0" y="2400" width="1200" height="400" fill="#020c1b"/>
+    <text x="80" y="2490" fill="#ccd6f6" font-size="20" font-weight="700">ZetaPay Institutional Corp.</text>
+    <text x="80" y="2530" fill="#8892b0" font-size="14">Enterprise payment routing engine for cross-border global trade.</text>
+  </svg>

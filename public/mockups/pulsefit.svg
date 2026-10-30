@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 2800" width="1200" height="2800">
+    <rect width="1200" height="2800" fill="#09090b"/>
+    <rect width="1200" height="80" fill="#18181b"/>
+    <text x="80" y="48" fill="#f43f5e" font-family="sans-serif" font-weight="900" font-size="24">PULSE.FIT</text>
+    <text x="1000" y="48" fill="#ffffff" font-family="sans-serif" font-weight="700" font-size="15">DOWNLOAD APP</text>
+    <!-- Hero -->
+    <text x="600" y="180" fill="#f43f5e" font-size="16" font-weight="800" text-anchor="middle">AI-POWERED HYPERTROPHY &amp; METABOLIC COACHING</text>
+    <text x="600" y="260" fill="#ffffff" font-size="56" font-weight="900" text-anchor="middle">Transform Your Physique.</text>
+    <text x="600" y="320" fill="#a1a1aa" font-size="20" text-anchor="middle">Adaptive workout progression based on daily bio-feedback and wearable sync.</text>
+    <!-- App Preview Mockup -->
+    <rect x="250" y="400" width="700" height="600" rx="24" fill="#18181b" stroke="#f43f5e" stroke-width="2"/>
+    <rect x="280" y="440" width="640" height="80" rx="12" fill="#27272a"/>
+    <text x="310" y="485" fill="#ffffff" font-size="18" font-weight="700">Today: Chest &amp; Triceps Hypertrophy (Day 42)</text>
+    <rect x="280" y="550" width="300" height="160" rx="12" fill="#27272a"/>
+    <text x="310" y="590" fill="#a1a1aa" font-size="14">Weekly Volume</text>
+    <text x="310" y="640" fill="#f43f5e" font-size="36" font-weight="800">42,500 kg</text>
+    <rect x="620" y="550" width="300" height="160" rx="12" fill="#27272a"/>
+    <text x="650" y="590" fill="#a1a1aa" font-size="14">Recovery Index</text>
+    <text x="650" y="640" fill="#10b981" font-size="36" font-weight="800">96 / 100</text>
+    <!-- Membership Grid -->
+    <text x="600" y="1120" fill="#ffffff" font-size="34" font-weight="800" text-anchor="middle">Choose Your Transformation Plan</text>
+    <g transform="translate(180, 1180)">
+      <rect width="400" height="340" rx="16" fill="#18181b" stroke="#3f3f46"/>
+      <text x="40" y="60" fill="#a1a1aa" font-size="18">Pro Athlete</text>
+      <text x="40" y="110" fill="#ffffff" font-size="42" font-weight="900">$29 <tspan font-size="16" fill="#71717a">/ mo</tspan></text>
+      <text x="40" y="160" fill="#e4e4e7" font-size="15">✓ AI periodization engine</text>
+      <text x="40" y="195" fill="#e4e4e7" font-size="15">✓ Apple Health &amp; Whoop sync</text>
+    </g>
+    <g transform="translate(620, 1180)">
+      <rect width="400" height="340" rx="16" fill="#18181b" stroke="#f43f5e" stroke-width="2"/>
+      <text x="40" y="60" fill="#f43f5e" font-size="18" font-weight="700">VIP 1-on-1 Coaching</text>
+      <text x="40" y="110" fill="#ffffff" font-size="42" font-weight="900">$149 <tspan font-size="16" fill="#71717a">/ mo</tspan></text>
+      <text x="40" y="160" fill="#e4e4e7" font-size="15">✓ Everything in Pro</text>
+      <text x="40" y="195" fill="#e4e4e7" font-size="15">✓ Dedicated Olympic Trainer Chat</text>
+    </g>
+    <!-- Footer -->
+    <rect x="0" y="2400" width="1200" height="400" fill="#09090b"/>
+    <text x="80" y="2490" fill="#ffffff" font-size="22" font-weight="700">PulseFit Mobile Ecosystem</text>
+  </svg>

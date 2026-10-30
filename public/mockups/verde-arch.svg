@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 2800" width="1200" height="2800">
+    <rect width="1200" height="2800" fill="#18181b"/>
+    <rect width="1200" height="80" fill="#09090b"/>
+    <text x="80" y="48" fill="#e4e4e7" font-family="serif" font-size="24" letter-spacing="4">VERDE ARCHITECTS</text>
+    <text x="700" y="46" fill="#a1a1aa" font-size="14" letter-spacing="2">PROJECTS &nbsp; PHILOSOPHY &nbsp; MONOGRAPHS &nbsp; CONTACT</text>
+    <!-- Hero -->
+    <rect x="80" y="140" width="1040" height="520" fill="#27272a"/>
+    <text x="140" y="260" fill="#a1a1aa" font-size="14" letter-spacing="3">SUSTAINABLE MONUMENTAL ARCHITECTURE</text>
+    <text x="140" y="340" fill="#ffffff" font-size="52" font-family="serif">Biophilic Glass &amp; Basalt Pavilions</text>
+    <text x="140" y="400" fill="#d4d4d8" font-size="18">Pritzker Prize nominated studio crafting zero-carbon civic centers in Oslo, Zurich, and Kyoto.</text>
+    <!-- Masonry Works -->
+    <text x="80" y="740" fill="#ffffff" font-size="30" font-family="serif">Selected Monograph 2024–2026</text>
+    <g transform="translate(80, 800)">
+      <rect width="500" height="380" fill="#27272a"/>
+      <text x="30" y="340" fill="#ffffff" font-family="serif" font-size="22">Nordic Horizon Library</text>
+      <text x="30" y="365" fill="#a1a1aa" font-size="13">Oslo, Norway • 24,000 sqm</text>
+    </g>
+    <g transform="translate(620, 800)">
+      <rect width="500" height="380" fill="#27272a"/>
+      <text x="30" y="340" fill="#ffffff" font-family="serif" font-size="22">Zenith Alpine Sanctuary</text>
+      <text x="30" y="365" fill="#a1a1aa" font-size="13">Zermatt, Switzerland • 6,500 sqm</text>
+    </g>
+    <rect x="0" y="2400" width="1200" height="400" fill="#09090b"/>
+    <text x="80" y="2490" fill="#ffffff" font-family="serif" font-size="22">Verde Architecture Partners</text>
+  </svg>

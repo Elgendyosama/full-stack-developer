@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-inter: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  color-scheme: light;
+}
+
+body {
+  background-color: #f8fafc;
+  color: #0f172a;
+  font-family: var(--font-inter);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom Scrollbars (Light Modern Aesthetic) */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #22a344;
+}
+
+/* Custom Ant Design carousel dots */
+.custom-carousel-dots li button {
+  background: #cbd5e1 !important;
+  opacity: 0.6 !important;
+  height: 4px !important;
+  border-radius: 2px !important;
+}
+
+.custom-carousel-dots li.slick-active button {
+  background: #22a344 !important;
+  opacity: 1 !important;
+  width: 24px !important;
+}
+
+/* Smooth device frame hover transitions */
+.smooth-mockup-scroll {
+  will-change: transform;
+}
